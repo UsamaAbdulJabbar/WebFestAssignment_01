@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usama Web</title>
+</head>
+
+<body>
+    <!-- navbar start here -->
+    <header>
+        <nav>
+            <div class="logo" style="display: flex; justify-content: center; align-items: center; "><img width="60px"
+                    src="data:image/webp;base64,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"
+                    alt="">
+                 <p style="color: white; font-size: 16pt; padding-left: 5px;">PRACTICE WEB</p>   
+                </div>
+            <div class="options">
+                <div class="home "><a href="index.html" class="optText" >Home</a></div>
+                <div class="about"><a href="about.html" class="optText" target="_blank">About</a></div>
+                <div class="contact"><a href="contact.html" class="optText" target="_blank">Contact</a></div>
+                <div class="services"><a href="Services.html" class="optText" target="_blank">Services</a></div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar end here -->
+
+    <!-- table, images, form start here -->
+    <div class="mid" style="display: flex; margin-top: 5px; justify-content: center;">
+        <div class="sideTable" style="border : 1px solid black;width: 100%;">
+            <table>
+                <tr>
+                    <th>Order List</th>
+                </tr>
+                <ol>
+                    <tr>
+                        <th><a href="index.html">Home</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="about.html">About</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="contact.html">Contact</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="Services.html">Services</a></th>
+                    </tr>
+                </ol>
+
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <th>Unorder List</th>
+                </tr>
+                <ul>
+                    <tr>
+                        <th><a href="index.html">Home</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="about.html">About</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="contact.html">Contact</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="Services.html">Services</a></th>
+                    </tr>
+                    
+                </ul>
+
+            </table>
+        </div>
+        <div class="imgForm" style="width: 100%;">
+            <div class="images" style="width: 100%;">
+                <div>
+                    <img width="400px"
+                        src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="">
+                </div>
+                <div>
+                    <img width="400px"
+                        src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="">
+                </div>
+                <div>
+                    <img width="400px"
+                        src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="">
+                </div>
+
+            </div>
+            <div class="form" style="border: 1px solid black; padding:10px; width: 100%;">
+                <h2 style="font-family: sans-serif;">Form Submit Here :</h2>
+                <div style="display: flex; justify-content:space-evenly; padding: 5px;">
+                    <div>
+                        <p style="font-size: 16pt; font-family: sans-serif;">Name</p>
+                        <input style="border: 2px solid black;width: 250px; height: 25px; " type="text" name="" id="">
+                    </div>
+                    <div>
+                        <p style="font-size: 16pt; font-family: sans-serif;">Last Name</p>
+                        <input style="border: 2px solid black;width: 250px; height: 25px;" type="text" name="" id="">
+                    </div>
+                </div>
+                <div style="display: flex; justify-content:space-evenly; padding: 5px;">
+                    <div>
+                        <p style="font-size: 16pt; font-family: sans-serif;">Contact</p>
+                        <input style="border: 2px solid black;width: 250px; height: 25px; " type="number" name="" id="">
+                    </div>
+                    <div>
+                        <p style="font-size: 16pt; font-family: sans-serif;">Email</p>
+                        <input style="border: 2px solid black; width: 250px; height: 25px;" type="email" name="" id="">
+                    </div>
+
+                </div>
+                <div style="display: flex; justify-content:space-evenly; padding: 5px;">
+                    <div>
+                        <p style="font-size: 16pt; font-family: sans-serif;">Feedback</p>
+                        <textarea style="width: 500px; height: 100px; border: 1px solid black; border-radius: 5px;" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    
+
+                </div>
+                <div style="display: flex; justify-content: center;"><button
+                        style="width:200px; height: 50px; border-radius:2px; background-color: black; color:white; font-family:sans-serif; ">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- table, images, form end here -->
+
+    <!-- footer start Here -->
+    <footer>
+        <div class="ta1" style="display: flex; justify-content: center; font-family: sans-serif;">
+            <h1>Web Developed By : Usama</h1>
+            
+            <table>
+
+            </table>
+        </div>
+        
+    </footer>
+     <!-- footer end Here -->
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
